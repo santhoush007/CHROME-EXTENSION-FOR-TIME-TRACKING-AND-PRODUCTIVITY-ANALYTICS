@@ -137,3 +137,23 @@ Popup UI Logic
 
 Options Page Logic
 
+<img width="473" height="688" alt="Image" src="https://github.com/user-attachments/assets/5c0d79bc-a0e6-46c3-be95-72c120b85d4a" />
+
+📚 Use Cases
+✔ Students
+
+Track study time on educational sites and reduce distractions like YouTube, Instagram, etc.
+
+✔ Software Developers
+
+Monitor productive coding time vs. browsing or social media.
+
+✔ Remote Workers
+
+Track work hours spent across online tools.
+
+✔ General Productivity
+
+Improve awareness of online habits and gain control over digital time.
+
+## Output:
