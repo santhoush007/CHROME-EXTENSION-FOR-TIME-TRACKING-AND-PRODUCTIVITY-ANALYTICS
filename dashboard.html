@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productivity Analytics Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Productivity Analytics Dashboard</h1>
+
+    <div class="stats">
+      <div class="stat">
+        <h3>Total Productive Time</h3>
+        <p id="totalProductive">0h 0m</p>
+      </div>
+      <div class="stat">
+        <h3>Total Unproductive Time</h3>
+        <p id="totalUnproductive">0h 0m</p>
+      </div>
+      <div class="stat">
+        <h3>Productivity Ratio</h3>
+        <p id="productivityRatio">0%</p>
+      </div>
+    </div>
+
+    <div class="chart-container">
+      <canvas id="timeChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+      <canvas id="productivityChart"></canvas>
+    </div>
+
+    <div class="categories">
+      <h2>Manage Categories</h2>
+      <div class="category-form">
+        <input type="text" id="categoryName" placeholder="Category Name">
+        <select id="categoryType">
+          <option value="productive">Productive</option>
+          <option value="unproductive">Unproductive</option>
+        </select>
+        <input type="text" id="categoryDomains" placeholder="Domains (comma-separated)">
+        <button id="addCategory">Add Category</button>
+      </div>
+      <ul id="categoryList" class="category-list"></ul>
+    </div>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
