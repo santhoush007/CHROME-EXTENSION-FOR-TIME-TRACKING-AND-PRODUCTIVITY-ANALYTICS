@@ -157,3 +157,6 @@ Track work hours spent across online tools.
 Improve awareness of online habits and gain control over digital time.
 
 ## Output:
+<img width="1651" height="901" alt="Image" src="https://github.com/user-attachments/assets/d0f0ce04-cfb2-4a2c-bf5b-cab807f4d4c8" />
+<img width="1646" height="891" alt="Image" src="https://github.com/user-attachments/assets/325ca739-2575-40b8-9844-fc167d047ac7" />
+<img width="1556" height="537" alt="Image" src="https://github.com/user-attachments/assets/636bbe78-29dd-417e-bb9e-6a76be86ebec" />
